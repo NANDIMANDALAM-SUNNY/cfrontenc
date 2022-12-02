@@ -1,0 +1,55 @@
+.container {
+	bottom: 0;
+	left: 0;
+	width: calc(100% - 20px);
+	margin: 0 10px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+
+.page_btn {
+	outline: none;
+	border: none;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 5px;
+	outline: none;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 5px;
+	cursor: pointer;
+	background-color: rgb(18, 188, 46);
+}
+
+.active {
+	background-color: red;
+	color: rgb(143, 14, 14);
+}
+
+
+.genre_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+
+.genre {
+	min-width: 90px;
+	display: flex;
+	align-items: center;
+	margin: 2px 0;
+}
+
+.genre_label {
+	margin: 0;
+	margin-left: 5px;
+}

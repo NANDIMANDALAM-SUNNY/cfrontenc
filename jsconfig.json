@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "baseUrl": "."
+  },
+  "include": [
+    "src/**/*"
+, "../backend/routes/OrderTimeline.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
